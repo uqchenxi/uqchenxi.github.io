@@ -181,7 +181,10 @@ body p {
   font-weight: bold;
 }
 .resume__work--title h3 {
-  font-size: 1.7em;
+  font-size: 1.6em;
+}
+.resume__work--detail h4 {
+  font-size: 1.4em;
 }
 .resume__work--detail span {
   margin-left: 1.5em;
@@ -196,8 +199,8 @@ body p {
 .resume__work--detail li {
   color: #8a8a8a;
   font-size: 1.2em;
-  line-height: 1.8em;
-  letter-spacing: 1px;
+  line-height: 1.5em;
+  width: 70%;
   text-align: justify;
 }
 .resume__work--detail h4 {
