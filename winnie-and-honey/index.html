@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+        <link href="https://fonts.googleapis.com/css?family=Gugi|Roboto+Condensed:400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        
+        <section id="site-tag-line">
+
+            <div class="Bees">        
+                <img src="images/bee.png" alt="The bee is flying around flowers and Winnie">
+                <img src="images/bee1.png" alt="The bee is flying around flowers and Winnie">
+            </div>
+
+            <figure id = "Winnie">
+                <img src="images/Winnie.png" alt="Winnie-the-Pooh is showing up">
+            </figure>
+
+            <section>
+                <span class="message-arrow"></span>
+                <span class="message">Hi <span class="name">Winnie-the-Pooh</span>  ! Are you hungry now? I am so hungry. Let's Hang out and find some honey!
+                    <br>
+                    <a>close</a>
+                </span>
+            </section>
+            
+            <figure id ="Piglet">
+                <img src="images/Piglet.png" alt="Piglet is showing up">
+            </figure>
+
+            <div id="tag">
+                <h1>Welcome and Let's Find Honey with Winnie!</h1>
+            </div>
+            
+        </section>
+
+        <nav id="main-menu">
+
+            <ul id="menu">                    
+                <li class="current">
+                    <a href="index.html" >Home</a>
+                </li>
+
+                <li >
+                    <a href="honeyharvest.html">Honey Harvest</a>
+
+                    <ul class="submenu">
+                        <div>
+                            <li></li>
+                            
+                            <li><a href="honeyextractor.html">Honey Extractor</a></li>                            
+                        </div>
+                    </ul>
+                </li> 
+
+                <li>
+                    <a href="bee.html">Honeybees</a>
+
+                    <ul class="submenu">
+                        <div>
+                            <li></li>
+
+                            <li><a href="honey.html">Honey</a></li>
+
+                            <li><a href="quiz.html">Quiz</a></li>
+                        </div>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="beekeeping.html">Beekeeping</a>
+
+                    <ul class="submenu">
+                        <div>
+                            <li><a href="feeders.html">Feeders</a></li>
+
+                            <li><a href="hive.html">Bee Hives</a></li>                            
+                        </div>
+                    </ul>
+                </li>                    
+            </ul>
+
+            <div id="block"></div>
+
+            <div id="home-banner"></div>
+ 
+        </nav>
+
+        <section id="previews">
+
+                <ul id="article-headings">        
+                    <li>
+                        <a href="honeyharvest.html">
+                            <figure class="heading-picture">
+                                <img src="images/Winnie and honey.png" alt="Winnie is lying on the ground with a can">
+                                <figcaption>Find Honey with Winnie</figcaption>
+                            </figure>                            
+                        </a>
+                    </li>
+
+                    <li>                                
+                        <a href="bee.html">
+                            <figure class="heading-picture">
+                                <img src="images/bee2.png" alt="A cute bee with huge eyes">
+                                <figcaption>Play with Bees</figcaption>
+                            </figure>                            
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="feeders.html">                            
+                            <figure class="heading-picture">
+                                <img src="images/beekeeper.png" alt="Two beekeepers are getting honey near the beehive">
+                                <figcaption>Find Beekeepers</figcaption>
+                            </figure>                            
+                        </a>
+                    </li>
+
+                    <li>                                
+                        <a href="https://glorybee.com/">
+                            <figure class="heading-picture">
+                                <img src="images/find more.png" alt="A army of bees are flying around a can">
+                                <figcaption3>Find More</figcaption>
+                            </figure>                            
+                        </a>
+                    </li>                                       
+                </ul>
+
+        </section>
+
+        <footer>
+
+            <section id="contact-details">
+                <ul>
+                    <li>Author: Chenxi Li</li>
+
+                    <li>Email: chenxi.li2@uqconnect.edu.au</li>
+
+                    <li>Phone Number: 0402185798</li>
+                </ul>
+            </section>
+
+        </footer>
+
+        <section id="login-page">
+
+            <fieldset>
+                <legend><h2>Your Details</h2></legend>
+
+                <div class="form-input">
+                    <label for="name">What is your name?</label>
+                    
+					<div>
+                        <input type="text" name="user-name" id="name" placeholder="Winnie the Pooh" maxlength="12"/>
+                        <div id = "length-error">Less than 12 chars !</div>
+                    </div>                    
+                </div>
+
+                <div class="form-radio">
+                    <label>Are you a boy or girl?</label>
+                    
+					<nav class="gender-part">						
+                        <input type="radio" name="gender" id="gender-male" value="boy" checked>
+                        <label for="gender-male"  class="gender"></label>
+                        Handsome boy
+                    </nav>
+
+                    <nav class="gender-part">
+						<input type="radio" name="gender" id="gender-female" value="girl">
+                        <label for="gender-female" class="gender"></label>
+                        Beautiful girl
+                    </nav>                    
+                </div>               
+            </fieldset>
+
+            <fieldset class="submit">
+				<button type="submit" id="submit-button">Go !</button>
+            </fieldset>
+            
+        </section>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/jquery.cycle2.min.js"></script>
+
+    </body>
+</html> 
