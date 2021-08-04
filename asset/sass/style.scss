@@ -8,13 +8,11 @@ $split-line-color: #00bcd4;
 
 body {
     background-color: $background-color;
-    font-family: 'Open Sans', sans-serif;
+    
     a {
         text-decoration: none;
     }
-    h1, h2, h3, h4, h5, h6 {
-        font-family: 'Amita', cursive;
-    }
+
     p {
         font-size:1em;
         font-family: 'Ubuntu', sans-serif;
@@ -31,6 +29,7 @@ body {
         width: 100%;
         transition: 0.5s ease-in;
         position: fixed;
+        text-transform: uppercase;
     }
 
     &__navbar--item {
@@ -93,6 +92,7 @@ body {
 
     &__summary p {
         width: 50%;
+        text-align: justify;
     }
 
     &__details {
@@ -206,6 +206,10 @@ body {
         font-weight: bold;
     }
 
+    &__work--title h3 {
+        font-size: 1.7em;
+    }
+
     &__work--detail span {
         margin-left: 1.5em;
         color:#212121;
@@ -217,12 +221,11 @@ body {
         font-weight: bold;
     }
 
-    &__work--detail p {
+    &__work--detail li {
         color: #8a8a8a;
-        font-size: 1em;
+        font-size: 1.2em;
         line-height: 1.8em;
         letter-spacing: 1px;
-        margin: 1em 0;
         text-align: justify;
     }
 
@@ -235,12 +238,16 @@ body {
         padding: 4em 3em;
     }
 
+    &__edu--block {
+        margin-bottom: 3em;
+    }
+
     &__edu--detail h4 {
         color: #dcad3f;
         letter-spacing: 2px;
         border-radius: 3px;
         font-weight: bold;
-        margin-bottom: 0.3em;;
+        margin-bottom: 0.7em;
     }
 
     &__header h3 {
@@ -255,15 +262,15 @@ body {
     &__edu--detail h3 {
         color: #fff;
         font-size: 2em;
-        margin-bottom: 25px;
+        margin-bottom: 8px;
         letter-spacing: 0.2px;
         font-weight: bold;
     }
 
-    &__edu--detail p {
+    &__edu--detail li {
         color: #8a8a8a;
-        font-size: 1em;
-        line-height: 1.8em; 
+        font-size: 1.2em;
+        line-height: 1.5em; 
         width: 70%;
         text-align: justify;
     }
@@ -271,8 +278,7 @@ body {
 
     &__edu--title h3 {
         color: #fff;
-        font-size: 2em;
-        font-weight: bold;
+        font-size: 1.7em;
     }
 
     i.fa.fa-users,i.fa.fa-code,i.fa.fa-laptop {
